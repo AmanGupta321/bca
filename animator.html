@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        div {
+            width: 350px;
+            height: 450px;
+            background-color: magenta;
+            -webkit-animation: first 2s .5s infinite alternate;
+        }
+
+        @-webkit-keyframes first {
+            0% {
+                border-radius: 0 0 0 0;
+                background-color: magenta;
+            }
+
+            20% {
+                border-radius: 50% 0 0 0;
+                background-color: coral;
+            }
+
+            40% {
+                border-radius: 50% 50% 0 0;
+                background-color: red;
+            }
+
+            60% {
+                border-radius: 50% 50% 50% 0;
+                background-color: blue;
+            }
+
+            80% {
+                border-radius: 50% 50% 50% 50%;
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+</html>
