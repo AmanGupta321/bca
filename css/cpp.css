@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:  #a679b64f;
+}
+        
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    border: 2pt solid whitesmoke;
+    border-radius: 30px;
+    width: 10%;
+    text-align: center;
+}
+/* nav .MB{
+    margin-left: -85px;
+} */
+nav .menu{
+    width: 48%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: rgb(226, 85, 85);
+    font-size: 30px;
+}
+
+form{
+    margin-left: 90px;
+    color: rgb(45, 46, 48);
+    font-size: 15pt;
+}
+
+input[name='submit']{
+    margin-left: 250px;
+    background-color: #c93958;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+input[name='myprofile']{
+    margin-left: 105px;
+    background-color: #1776cf;
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+input[name='logout']{
+    margin-left: 105px;
+    background-color: #de4343;
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
