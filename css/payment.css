@@ -1,0 +1,27 @@
+td,th {
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+table {
+    margin: auto;
+    margin-top: 92px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+div {
+    position: absolute;
+    top: 95px;
+    left: 150px;
+    width: 80%;
+    z-index: -1;
+    background-color: rgba(159, 243, 159, 0.459);
+    border: 5px double rgba(247, 134, 89, 0.973);
+}
+.underline{
+    background-color: rgba(127, 235, 127, 0.459);
+    border-radius: 25pt;
+}

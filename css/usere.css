@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(163, 173, 175, 0.459);
+}
+
+/* Navigation CSS */
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(117, 117, 117, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    color: goldenrod;    
+    border: 2pt solid goldenrod;
+    border-radius: 30px;
+    width: 12%;
+    text-align: center;
+}
+nav .menu{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/*End Navigation*/
+
+
+a {
+    color: black;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    font-size: 15pt;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+input[type='submit'] {
+    font-size: 15px;
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+#checkamountbtn {
+    font-size: 15px;
+    background-color: #e28151;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+#addtocart {
+    font-size: 15px;
+    background-color: #51e273;
+    padding: 12px;
+    width: 145%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+#h1 {
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-left: 145px;
+}
+
+select,
+option {
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    font-size: 10pt;
+    
+}
+
+#logout {
+    color: indianred;
+}
+#buttoncenter{
+    text-align: center;
+}
+input[name="changepwd"] {
+    background: transparent;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #a775e7;
+    padding: 12px 45px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#textz {
+    font-size: 22px;
+}
+
+#textZ {
+    font-size: 35px;
+}
+
+
+
+#middle #formbreak{
+    color: rgb(143, 44, 196);
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    text-align: center;
+    /*border: 2px solid black;*/    
+    margin: auto;
+    
+}
+td{
+/*    border: 2px solid black;*/
+    padding: 5px 0 0 130px;
+}
+

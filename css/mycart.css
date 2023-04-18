@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(236, 145, 175, 0.582);
+}
+/* Navigation CSS */
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(2, 2, 2, 0.3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    color: goldenrod;    
+    border: 2pt solid goldenrod;
+    border-radius: 30px;
+    width: 12%;
+    text-align: center;
+}
+nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/*End Navigation*/
+
+
+
+u{
+    text-decoration: underline;
+    text-decoration-color: #7d2ae8;
+}
+p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35pt;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#box{
+    width: 50%;
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid rgb(53, 52, 49);
+}
+.underline th, .underline td{
+    border-top: 1pt solid black;
+    
+}
+.underline td b{
+    font-size: 35px;
+}
+table{
+    font-size: 20px;
+    color: rgb(73, 72, 73);
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px double rgb(151, 144, 142);
+    border-radius: 15px;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}   
+.specialtd{
+    text-decoration: underline;
+}
+#upper{
+    text-transform: uppercase;
+}
+#logout{
+    color: indianred;
+    font-size: 20px;
+}
+#btn1{
+    background-color: #3fb65b;
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#btn2{
+    font-size: 15px;
+    background-color: #1776cf;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+#btn3{
+    font-size: 15px;
+    background-color: #dfd61b;
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+#btn4{
+    background-color: #cf2317;
+    font-size: 15px;    
+    color: #ffffff;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}

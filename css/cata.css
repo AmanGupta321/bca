@@ -1,0 +1,95 @@
+/**Navigation starts here **/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(161, 150, 204, 0.541);
+}
+
+/* Navigation CSS */
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(3, 3, 3, 0.3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    color: goldenrod;    
+    border: 2pt solid goldenrod;
+    border-radius: 30px;
+    width: 12%;
+    text-align: center;
+}
+nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/*End Navigation*/
+
+
+.container{
+    display: grid;
+    /*grid-template-rows: 5fr 5fr 5fr;    /*1fr 2fr 1fr - for first, second and third row*/
+    /*grid-auto-rows: 2fr;                /*for rest box the height will be 2fr*/
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 3rem 2rem;                /*height, width to add space b/w grid items*/
+    /*border: 2px solid black;*/
+    text-align: center;
+    
+}
+.box{
+
+    font-weight: bold;
+    border: 2px solid black;
+    color: whitesmoke;
+}
+table{
+    height: 500px;
+    border: 10px double rgb(102, 121, 137);
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    color: rgb(98, 97, 100);
+    
+}
+.tdfg{
+    
+    font-size: 22px;
+    background-color: rgb(254, 229, 207);
+    font-weight: bold;
+}
+th{
+    background-color: rgb(252, 214, 177);
+    border: 1px solid rgb(176, 175, 175);
+    width: 15%;
+    font-size: 32px;
+}
+td, img{
+
+    padding: 8px;
+}
+#tdfontsmall{
+    font-size: 21px;
+}

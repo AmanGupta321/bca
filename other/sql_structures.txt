@@ -1,0 +1,14 @@
+
+Register
+CREATE TABLE `dbaman`.`register` (`firstName` VARCHAR(10) NOT NULL , `lastName` VARCHAR(10) NOT NULL , `dob` DATE NOT NULL , `email` VARCHAR(15) NOT NULL , `contact` INT(10) NOT NULL , `aadhar` INT(12) , `username` VARCHAR(14) NOT NULL , `password` VARCHAR(15) NOT NULL , `gender` VARCHAR(6) NOT NULL , `address` VARCHAR(20) NOT NULL ) ENGINE = InnoDB
+
+CREATE TABLE `ordertotal` (
+  `Datetime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `Username` varchar(12) NOT NULL,
+  `All Product` varchar(200) NOT NULL,
+  `Total Quantity` int(5) NOT NULL,
+  `Total Amount` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+Feedback
+CREATE TABLE `dbaman`.`feedback` (`fullname` VARCHAR(20) NOT NULL , `email` VARCHAR(15) NOT NULL , `msg` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
