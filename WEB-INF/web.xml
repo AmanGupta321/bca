@@ -1,0 +1,65 @@
+<web-app>
+	<servlet>
+		<servlet-name>slip4Q1b</servlet-name>
+		<servlet-class>slip4Q1b</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>slip4Q1b</servlet-name>
+		<url-pattern>/slip4Q1b</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>slip26Q1b</servlet-name>
+		<servlet-class>slip26Q1b</servlet-class>
+	</servlet>
+		<servlet-mapping>
+		<servlet-name>slip26Q1b</servlet-name>
+		<url-pattern>/slip26Q1b</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>slip6Q1b</servlet-name>
+		<servlet-class>slip6Q1b</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>slip6Q1b</servlet-name>
+		<url-pattern>/slip6Q1b</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>slip29Q1b</servlet-name>
+		<servlet-class>slip29Q1b</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>slip29Q1b</servlet-name>
+		<url-pattern>/slip29Q1b</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>slip21Q1b</servlet-name>
+		<servlet-class>slip21Q1b</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>slip21Q1b</servlet-name>
+		<url-pattern>/slip21Q1b</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>slip23Q1b</servlet-name>
+		<servlet-class>slip23Q1b</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>slip23Q1b</servlet-name>
+		<url-pattern>/slip23Q1b</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>slip10Q1b</servlet-name>
+		<servlet-class>slip10Q1b</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>slip10Q1b</servlet-name>
+		<url-pattern>/slip10Q1b</url-pattern>
+	</servlet-mapping>
+</web-app>
