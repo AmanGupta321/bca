@@ -1,0 +1,20 @@
+INSERT INTO `register` (`Datetime`, `firstName`, `lastName`, `dob`, `Email`, `contact`, `aadhar`, `username`, `password`, `gender`, `address`) VALUES (current_timestamp(), 'rohit', 'gupta', '2022-01-06', 'rohit@gmail.com', '8745216935', '123547896541', 'rohit', '123', 'male', 'chanod');
+INSERT INTO `register` (`Datetime`, `firstName`, `lastName`, `dob`, `Email`, `contact`, `aadhar`, `username`, `password`, `gender`, `address`) VALUES (current_timestamp(), 'deepak', 'sharma', '2001-10-26', 'deepak@gmail.com', '8745216935', '123547896541', 'deepak', '123', 'male', 'chanod');
+INSERT INTO `register` (`Datetime`, `firstName`, `lastName`, `dob`, `Email`, `contact`, `aadhar`, `username`, `password`, `gender`, `address`) VALUES (current_timestamp(), 'pramod', 'gupta', '2012-01-17', 'pramod@gmail.com', '8745216935', '123547896541', 'pramod', '123', 'male', 'chanod');
+INSERT INTO `register` (`Datetime`, `firstName`, `lastName`, `dob`, `Email`, `contact`, `aadhar`, `username`, `password`, `gender`, `address`) VALUES (current_timestamp(), 'chetan', 'sharma', '2009-10-11', 'chetan@gmail.com', '8745216935', '123567896541', 'chetan', '123', 'male', 'chanod');
+INSERT INTO `register` (`Datetime`, `firstName`, `lastName`, `dob`, `Email`, `contact`, `aadhar`, `username`, `password`, `gender`, `address`) VALUES (current_timestamp(), 'aman', 'gupta', '2009-10-11', 'aman@gmail.com', '8745216935', '123567896541', 'aman', '123', 'male', 'chanod');
+
+
+
+
+INSERT INTO `feedback` (`Datetime`, `fullname`, `email`, `msg`) VALUES (current_timestamp(), 'amangupta', 'amn@gmail.com', 'YOUR nice project');
+INSERT INTO `feedback` (`Datetime`, `fullname`, `email`, `msg`) VALUES (current_timestamp(), 'suresh verma', 'suresh@gmail.com', 'GOOD Project');
+INSERT INTO `feedback` (`Datetime`, `fullname`, `email`, `msg`) VALUES (current_timestamp(), 'rohit panchal', 'rohit@gmail.com','Well done');
+INSERT INTO `feedback` (`Datetime`, `fullname`, `email`, `msg`) VALUES (current_timestamp(), 'rita kohli', 'rita@gmail.com', 'YOUR nice project');
+
+
+INSERT INTO `payment1` (`Datetime`, `Username`, `All_Product`, `Total_Quantity`, `Total_Amount`, `Payment`, `Status`) VALUES (current_timestamp(), 'rohit', 'white forest, burger, sandwich', '8', '4500', 'paid', 'Return');
+INSERT INTO `payment1` (`Datetime`, `Username`, `All_Product`, `Total_Quantity`, `Total_Amount`, `Payment`, `Status`) VALUES (current_timestamp(), 'sachin', 'toast, burger, donut', '3', '5010', 'due', 'Return');
+INSERT INTO `payment1` (`Datetime`, `Username`, `All_Product`, `Total_Quantity`, `Total_Amount`, `Payment`, `Status`) VALUES (current_timestamp(), 'monty', 'cookies, burger, Chocalate Pie', '1', '1200', 'due', 'Delivered');
+INSERT INTO `payment1` (`Datetime`, `Username`, `All_Product`, `Total_Quantity`, `Total_Amount`, `Payment`, `Status`) VALUES (current_timestamp(), 'Ravi', 'maggi, burger, Pastry', '2', '3645', 'paid', 'Pending');
+INSERT INTO `payment1` (`Datetime`, `Username`, `All_Product`, `Total_Quantity`, `Total_Amount`, `Payment`, `Status`) VALUES (current_timestamp(), 'Golu', 'cookies, black forest, sandwich', '6', '4010', 'due', 'InProgress');

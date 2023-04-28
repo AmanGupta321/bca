@@ -1,0 +1,4 @@
+create table feedback(Datetime Timestamp,
+fullname varchar(20),
+email varchar(15),
+msg varchar(50));

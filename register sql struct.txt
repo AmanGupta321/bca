@@ -1,0 +1,31 @@
+create table register(Datetime Timestamp, firstName varchar(30), lastName varchar(30), dob date, Email varchar(30), contact bigint(10), aadhar bigint(12), username varchar(30) PRIMARY KEY, password varchar(30), gender varchar(6), address varchar(40) );
+
+create table login(
+    Datetime Timestamp,
+    Login_ID int PRIMARY KEY AUTO_INCREMENT,
+    username varchar(14),
+    FOREIGN KEY (username) REFERENCES register(username)
+);
+
+CREATE TABLE Persons (
+    PersonID int NOT NULL PRIMARY KEY,
+    LastName int NOT NULL,
+    LastName int NOT NULL,
+    Age varchar(5));
+
+CREATE TABLE Orders321 (
+    Datetime Timestamp,
+    UserName varchar(30) NOT NULL,
+    OrderID int NOT NULL PRIMARY KEY,
+    Total_Items varchar(50) NOT NULL, 
+    Total_Qty int NOT NULL,
+    Total_Price int NOT NULL
+);
+
+create TABLE PAYMENT321(
+    Datetime Timestamp,
+    OrderID int NOT NULL PRIMARY KEY,
+    Payment varchar(10) NOT NULL,
+    Status varchar(10) NOT NULL,
+    FOREIGN KEY (OrderID) REFERENCES Orders321(OrderID)
+);

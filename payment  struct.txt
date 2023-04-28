@@ -1,0 +1,7 @@
+    create table payment1(Datetime Timestamp,
+    Username varchar(10),
+    All_Product varchar(200),
+    Total_Quantity int(5),
+    Total_Amount int(5),
+    Payment varchar(15),
+    Status varchar(15));

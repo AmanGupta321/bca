@@ -1,0 +1,63 @@
+ *{
+    margin: 0em;
+    font-family: 'Poppins', sans-serif;
+    padding: 0em;
+    box-sizing: border-box;
+}
+/* Navigation CSS */
+nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    color: goldenrod;    
+    border: 2pt solid goldenrod;
+    border-radius: 30px;
+    width: 12%;
+    text-align: center;
+}
+nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/*End Navigation*/
+
+
+#aboutus{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 230px;
+    width: 70%;
+    color: #333;
+    height: 75vh;
+    border: 5px double rgb(47, 45, 49);
+    background-color: #92ace669;
+    border-radius: 15px;
+}
+span{
+    margin-left: 22px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}

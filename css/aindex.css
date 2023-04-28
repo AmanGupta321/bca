@@ -1,0 +1,166 @@
+*{
+    margin: 0em;
+    font-family: 'Poppins', sans-serif;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+body{
+    /*background: url(../image/1.JPG) center/cover no-repeat;*/
+    background: url(../image/back.jpg) center/cover no-repeat;
+    backdrop-filter: blur(0.5px);     
+}
+
+/* Navigation CSS */
+    nav{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo{
+    margin-left: 170px;
+    color: goldenrod;    
+    border: 2pt solid goldenrod;
+    border-radius: 30px;
+    width: 12%;
+    text-align: center;
+}
+nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+nav .menu a:hover{
+    color: rgb(227, 229, 226);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/*End Navigation*/
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+section h4{
+    margin-top: -50px;
+    font-size: 30px;
+    color: rgba(238, 234, 234, 0.993);
+    text-shadow: 2px 1px 5px black;
+}
+section h1{
+    margin: 15px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+section .spanfont{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    color: rgba(238, 234, 234, 0.993);
+    color: rgba(207, 204, 204, 0.993);
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btnone{
+    background: #00b894;
+    background: #fff;
+    color: #000;
+}
+section .btntwo{
+    background: #00b894;
+    color: white;
+
+}
+.change_content:after{
+    content: "";
+    animation: changetext 8s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext{
+    0%{
+        content: "have Cookies";
+    }
+    25%{
+        content: 'have Cake';
+    }
+    50%{
+        content: 'take Orders';
+    }
+    75%{
+        content: 'have Pastries';
+    }
+    100%{
+        content: 'have dairy products';
+    }
+}
+
+.change_content1:after{
+    content: "";
+    animation: changetext1 8s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext1{
+    0%{
+        content: "Celebration";
+    }
+    25%{
+        content: 'Birthday';
+    }
+    50%{
+        content: 'Occasion';
+    }
+    75%{
+        content: 'Moments';
+    }
+    100%{
+        content: 'Daily use';
+    }
+}
+#font1{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#font2{
+    font-family: 'HP Simplified', sans-serif;
+}
+#font3{
+    font-family: 'Bodoni MT', sans-serif;
+    text-decoration: underline;
+}
+#font4{
+    font-family: 'Bahnschrift Condensed', sans-serif;
+    text-decoration: underline;
+}
+#font5{
+    font-family: 'Segoe UI Black', sans-serif;
+}   
