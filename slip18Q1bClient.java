@@ -15,19 +15,12 @@ public class slip18Q1bClient {
 
         while(true){
             String str = dis.readUTF();
-            
+
                 System.out.println("Server : "+str);
-                
+
                 System.out.print("Client : ");
                 Scanner sc = new Scanner(System.in);
                 dout.writeUTF(sc.nextLine());
-            
-            
-                System.out.println("Client : "+str);
-
-                dout.close();
-                dis.close();
-                socket.close();
         }
     }
 }

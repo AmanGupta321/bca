@@ -18,21 +18,15 @@ class slip18Q1bServer {
         while(true){
             System.out.print("Server : ");
             String server_input = sc.nextLine();
-        
+
                 // 1st
                 dout.writeUTF(server_input);
 
                 // 4th
                 String str = dis.readUTF();
-                //if(str.equals("exit") || str == null){
+
                     System.out.println("Client : "+str);
-                  //  break;
-               // }
-                dout.writeUTF(server_input);
-                dout.close();
-                dis.close();
-                s.close();
-                ss.close();
+
             }
         }
 }

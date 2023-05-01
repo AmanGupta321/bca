@@ -1,46 +1,26 @@
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.*;
 import java.io.*;
 import java.net.*;
+import java.util.Scanner;
 
-class slip1Q1bClient extends JFrame implements ActionListener {
-    JTextField textField;
+public class slip1Q1bClient {
+    public static void main(String[] args) throws Exception {
+        System.out.println("I am Client");
+        Socket socket = new Socket("localhost", 10001); // Connect to server on port 10001
 
-    slip1Q1bClient() {
-        super("Chat Client");
-        setVisible(true);
-        setSize(500, 500);
-        setBackground(Color.RED);
-        setLayout(new FlowLayout());
-        textField = new JTextField(40);
-        JButton sendButton = new JButton("Send");
-        sendButton.addActionListener(this);
-        add(textField);
-        add(sendButton);
-    }
+        // 2nd Receiving data from Server
+        DataInputStream dis = new DataInputStream(socket.getInputStream());
 
-    public void actionPerformed(ActionEvent a) {
-        String message = textField.getText();
-        try {
-            Socket clientsocket = new Socket("localhost", 8808);
-            DataOutputStream dout = new DataOutputStream(clientsocket.getOutputStream());
-            dout.writeUTF("" + message);
-        } catch (IOException e) {
-            System.err.println("Accept failed.");
-            System.exit(1);
+        // 3rd Sending data from Client
+        DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
+
+        while(true){
+            String str = dis.readUTF();
+
+                System.out.println("Server : "+str);
+
+                System.out.print("Client : ");
+                Scanner sc = new Scanner(System.in);
+                dout.writeUTF(sc.nextLine());
         }
-        if (!message.equals("exit")) {
-            setVisible(false);
-            textField.setText("");
-            setVisible(true);
-            // new slip1Q1bClient();
-        }
-    }
-
-    public static void main(String arg[]) {
-        new slip1Q1bClient();
     }
 }
