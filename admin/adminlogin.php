@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LOGIN</title>
+    <title>ADMIN LOGIN</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap">
     <link rel="stylesheet" href="../css/login.css?<?php echo time(); ?>">
 </head>
