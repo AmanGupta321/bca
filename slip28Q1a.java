@@ -1,24 +1,49 @@
-class ThreadSynchronized extends Thread{
-    int n=5;
-    synchronized void display(){
+class msg {
+    synchronized void dis(){
         for(int i=1;i<=10;i++){
-            System.out.println(""+i*5);
+      System.out.println("5x"+i+"="+i*5);
         }
     }
-    public void run(){
-        try {
-            display();
-            Thread.sleep(1000);
-        } catch (Exception e) {
-            // TODO: handle exception
+
+    synchronized void disp(){
+        for(int i=1;i<=10;i++){
+    System.out.println("10x"+i+"="+i*10);
         }
     }
 }
-public class slip28Q1a {
-    public static void main(String[] args) {
-        ThreadSynchronized t1 = new ThreadSynchronized();
-    ThreadSynchronized t2 = new ThreadSynchronized();
-    t1.start();
-    t2.start();
+
+class Demo1 implements Runnable{
+    msg m;
+    Demo1(msg m1){
+        m = m1;
+        Thread t = new Thread(this);
+        t.start();
+    }
+
+    public void run(){
+        m.dis();      
+    }
+}
+
+
+class Demo2 implements Runnable{
+    msg m;
+    Demo2(msg m1){
+        m = m1;
+        Thread t = new Thread(this);
+        t.start();
+    }
+
+    public void run(){
+        m.disp();
+    }
+}
+
+class slip28Q1a{
+
+    public static void main(String args[]){
+        msg mg = new msg();
+        new Demo1(mg);
+        new Demo2(mg);
     }
 }
